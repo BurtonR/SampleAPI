@@ -5,9 +5,10 @@ A RESTful API sample
 * You must have an instance of SQL Server running
 * The Server must be aliased with 'LocalDB'
 * Run the two .sql files in the Database directory
-  * dofactory-data.sql
-  * dofactory-model.sql
-* There must be a user named "doFactoryService"
+ * dofactory-model.sql   _first_
+ * dofactory-data.sql   _after dofactory-model.sql runs_
+* Create a user:
+  * Username: "doFactoryService"
   * Password: "doFactoryService"
 
 
